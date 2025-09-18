@@ -1,3 +1,6 @@
+# 👾 Task 2: Type Counting
+
+```java
 import java.util.HashMap; //библиотека джавы
 import java.util.Map;
 
@@ -33,3 +36,5 @@ public class Leetcode { // название класса
 
     }
 }
+
+```
