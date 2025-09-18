@@ -16,7 +16,7 @@ public class Lab1 {
         String myName = "Viktoriia";
         String[] names = { "Maria", "Dascha", "Dami", myName };
 
-        // передвигается по масиву и выводит все значения по очереди
+        // передвигаемся по масиву и выводим все значения по очереди
         for (int i = 0; i < names.length; i++) {
             System.out.println("Имя: " + names[i]);
         }
@@ -111,4 +111,5 @@ public class Lab1 {
 }
 
 ```
+
 
