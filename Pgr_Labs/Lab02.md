@@ -97,10 +97,9 @@ public class Lab1 {
             return (numA + numB) / 2.0;
         }
     }
-
 }
-
 ```
+
 
 
 
