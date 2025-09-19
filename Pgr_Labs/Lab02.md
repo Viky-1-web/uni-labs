@@ -64,22 +64,15 @@ public class Lab1 {
 
         Scanner scan = new Scanner(System.in); // используем Scanner
         System.out.println("Введите первое число... "); // выводим в консоль вопрос пользователю 
-        int numA = scan.nextInt(); // присваиваем ответ пользователя 
-        System.out.println("Введите второе число... ");
-        int numB = scan.nextInt();
+        int numX = scan.nextInt(); // присваиваем ответ пользователя 
 
-        Taschenrechner.average(numA, numB); // используем функции с другого класса (ребёнка)
+        int squareValue = Taschenrechner.square(numX); // присваиваем функции значение 
+        int cubeValue = Taschenrechner.cube(numX);
+        double averageValue = Taschenrechner.average(squareValue, cubeValue);
 
-        System.out.println("Введите число... "); 
-        int numX = scan.nextInt();
+        System.out.println("Среднее арифметическое между квадратом и кубом: " + averageValue);
 
-        // используем функции с другого класса
-        Taschenrechner.square(numX);
-        Taschenrechner.cube(numX); 
-
-        // Taschenrechner.vier(numA, numB);
         scan.close(); // закрываем Scanner
-
     }
 ```
 ```
@@ -88,28 +81,26 @@ public class Lab1 {
 
         // создаем функции, для родительского класса
 
-        public static void average(int numA, int numB) {
-            // выводим ответ в консоль
-            System.out.println("Среднее арифметическое: " + ((numA + numB) % 2));
+        public static int square(int numX) {
+            int result = numX * numX; 
+            System.out.println("Ваше число в квадрате: " + result); // выводим в консоль
+            return result; // возвращаем результат 
         }
 
-        public static void square(int numX) { 
-            System.out.println("Ваше число в квадрате: " + (numX * numX));
+        public static int cube(int numX) {
+            int result = numX * numX * numX;
+            System.out.println("Ваше число в кубе: " + result);
+            return result;
         }
 
-        public static void cube(int numX) { 
-            System.out.println("Ваше число в кубе: " + (numX * numX * numX));
+        public static double average(int numA, int numB) {
+            return (numA + numB) / 2.0;
         }
-
-        /*
-        public static void vier(int numA, int numB) { 
-            System.out.println("...:  " + (***));
-        }
-        */
     }
 
 }
 
 ```
+
 
 
