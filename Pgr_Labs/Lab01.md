@@ -1,4 +1,4 @@
-# 👾 Lab02: Scalar value vs Reference & Type Counting
+# 👾 Lab01: Scalar value vs Reference & Type Counting
 ## ✔️ Task 1: Scalar value vs Reference
 Подготовьте две реализации функции `inc`:
 
@@ -84,6 +84,7 @@ public class Leetcode { // название класса
     }
 }
 ```
+
 
 
 
