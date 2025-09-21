@@ -1,0 +1,46 @@
+import java.util.Arrays;
+
+public class Lab04 {
+    public static int main(String[] args) {
+        int sum = 0;
+        //for
+        for (int i = 1; i <= 10; i++){
+            sum += i;
+        }
+        return sum;
+
+        //for-each
+        for(int num : args){
+            sum += num;
+        }
+        return sum;
+
+        //while
+        int sum = 0;
+        int i = 0;
+        while (i < args.length) {
+            sum += Integer.parseInt(args[i]);
+            i++;
+        }
+        return sum;
+
+        //do..while
+        int sum = 0;
+        int i = 0;
+        do{
+            sum += args[i];
+            i++;
+        }
+        while(i < args.length){
+            return  sum;
+        }
+
+        //на подобии метода Array.prototype.reduce()
+        int[] arr = {1, 2, 3, 4};
+
+        int sum = Arrays.stream(arr)
+                .reduce(0, (acc, val) -> acc + val);
+
+        int sum = 0;
+    }
+}
