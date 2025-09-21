@@ -52,7 +52,7 @@ public class Scalar {
 import java.util.HashMap; //библиотека джавы
 import java.util.Map;
 
-public class Leetcode { // название класса
+public class Main { // название класса
     public static void main(String[] args) {
         // создание массива и присвоение ему значений
         Object[] arr = { true, "hello", 5, 12, -200, false, false, "word" };
@@ -84,6 +84,7 @@ public class Leetcode { // название класса
     }
 }
 ```
+
 
 
 
