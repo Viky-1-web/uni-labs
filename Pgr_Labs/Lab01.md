@@ -71,8 +71,7 @@ public class Main { // название класса
                 name = elem.getClass().getSimpleName();
             }
 
-            // подсчёт ключ (String/Boolean) с библиотеки и добавляет +1 (увеличивает
-            // счётчик типа)
+            // подсчёт ключ (String/Boolean) с библиотеки и добавляет +1 (увеличивает счётчик)
             type.put(name, type.getOrDefault(name, 0) + 1);
             // type.put -> обновляет и добавляет значение в Map
         }
@@ -84,6 +83,7 @@ public class Main { // название класса
     }
 }
 ```
+
 
 
 
