@@ -30,7 +30,7 @@ public class Lab1 {
 5. Реализуйте функцию `rangeOdd(start: number, end: number): array` которая
 отдает массив нечетных чисел из диапазона [15, 30] включая крайние числа.
 
-```
+```java
     public class Lab1 {
 
         int num = 30;  // присваиваем значению num 30
@@ -57,7 +57,7 @@ public class Lab1 {
 функцию `average`. Результаты сложите в массив и возвратите из функции
 `calculate`.
 
-```
+```java
     import java.util.Scanner; // импортируем с библиотеки java
 
     public class Main {
@@ -75,7 +75,7 @@ public class Lab1 {
         scan.close(); // закрываем Scanner
     }
 ```
-```
+```java
     // детский класс 
     public class Taschenrechner {
 
@@ -111,7 +111,7 @@ public class Lab1 {
 `createUser('Marcus Aurelius', 'Roma')` функция должна вернуть объект
 `{ name: 'Marcus Aurelius', city: 'Roma' }`
 
-```
+```java
 public class Main {
  
     // метод, который увеличивает переданное число на 1
@@ -148,7 +148,7 @@ A. Реализуйте телефонную книгу на хеш-таблиц
 - Реализуйте функцию `findPhoneByName` с сигнатурой
 `findPhoneByName(name: string): string` которая находит телефон в хеше по имени
 и возвращает номер телефона. Используйте `hash[key]` для поиска телефона.
-```
+```java
 import java.util.HashMap; // библиотека java
 
 public class Book {
@@ -202,6 +202,7 @@ class User { // класс User для записей в телефонной к
     }
 }
 ```
+
 
 
 
