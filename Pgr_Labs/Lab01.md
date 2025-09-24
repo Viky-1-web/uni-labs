@@ -48,7 +48,7 @@ public class Scalar {
 - Измените пример: удалите все ключи из начальной коллекции и добавляйте их
 динамически в цикле.
 
-```
+```java
 import java.util.HashMap; //библиотека джавы
 import java.util.Map;
 
@@ -83,6 +83,7 @@ public class Main { // название класса
     }
 }
 ```
+
 
 
 
