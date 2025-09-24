@@ -34,7 +34,7 @@ public class Aufgabe12 {
 ✔️ Реализуйте функцию `generateKey(length, characters)`, возвращающую строку
 случайных символов из набора `characters` длиной `length`
 
-```
+```java
 public class Main {
     public static void main(String[] args) {
         double a = 5.09843895;
@@ -60,7 +60,7 @@ public class Main {
 - Оптимизируем код через использование `Array.prototype.reduce`
 Используйте значение аргумента функции по умолчанию '127.0.0.1'.
 
-```
+```java
 public class IP {
     public static int ipToNumber(String ip) {
         String[] parts = ip.split("\\.");
@@ -95,7 +95,7 @@ public class IP {
 - Сохраните результаты в двумерный массив
 
 
-```
+```java
 // первая часть
 import java.lang.reflect.Method;
  
@@ -122,7 +122,7 @@ public class Main {
 }
 
 ```
-```
+```java
 // вторая часть
 public class MyClass {
     public Object m1(Object x) {
