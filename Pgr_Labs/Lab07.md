@@ -44,7 +44,7 @@ public class ArrayAufgabe {
         int[] newArr2 = new int[arr.length - indicesToRemove.size()];
         for (int i = 0, j = 0; i < arr.length; i++) {
             if (!indicesToRemove.contains(i)) {
-                newArr[j++] = arr[i];
+                newArr2[j++] = arr[i];
             }
         }
 
