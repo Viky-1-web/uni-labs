@@ -48,7 +48,7 @@ public class ArrayAufgabe {
             }
         }
 
-        System.out.println("2. " + Arrays.toString(newArr2)); // [0, 0, 0, 0]
+        System.out.println("2. " + Arrays.toString(newArr2)); //
 
         // 3
         int[] Arr = { 1, 2, 3, 4, 5, 1, 2 };
