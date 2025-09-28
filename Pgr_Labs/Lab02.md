@@ -7,12 +7,10 @@
 ```java
 public class Lab1 {
 
-    // константа с моим годом рождения
     public static final int birthyear = 2008;
 
     public static void main(String[] args) {
 
-        // создан массив с единственным аргументом: name
         String myName = "Viktoriia";
         String[] names = { "Maria", "Dascha", "Dami", myName };
 
@@ -33,9 +31,8 @@ public class Lab1 {
 ```java
     public class Lab1 {
 
-        int num = 30;  // присваиваем значению num 30
+        int num = 30; 
 
-        // проходимся по функции и выводим 
         for (int n = 15; n <= num; n++) {
             System.out.println(n);
         }
@@ -58,21 +55,21 @@ public class Lab1 {
 `calculate`.
 
 ```java
-    import java.util.Scanner; // импортируем с библиотеки java
+    import java.util.Scanner; 
 
     public class Main {
 
-        Scanner scan = new Scanner(System.in); // используем Scanner
-        System.out.println("Введите первое число... "); // выводим в консоль вопрос пользователю 
-        int numX = scan.nextInt(); // присваиваем ответ пользователя 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите первое число... "); 
+        int numX = scan.nextInt(); 
 
-        int squareValue = Taschenrechner.square(numX); // присваиваем функции значение 
+        int squareValue = Taschenrechner.square(numX); 
         int cubeValue = Taschenrechner.cube(numX);
         double averageValue = Taschenrechner.average(squareValue, cubeValue);
 
         System.out.println("Среднее арифметическое между квадратом и кубом: " + averageValue);
 
-        scan.close(); // закрываем Scanner
+        scan.close(); 
     }
 ```
 ```java
@@ -83,8 +80,8 @@ public class Lab1 {
 
         public static int square(int numX) {
             int result = numX * numX; 
-            System.out.println("Ваше число в квадрате: " + result); // выводим в консоль
-            return result; // возвращаем результат 
+            System.out.println("Ваше число в квадрате: " + result); 
+            return result; 
         }
 
         public static int cube(int numX) {
@@ -121,8 +118,8 @@ public class Main {
  
     public static void main(String[] args) {
  
-        int a = 5; // присваиваем значение
-        int b = inc(a); // вызываем метод inс со значением (а)
+        int a = 5; 
+        int b = inc(a); 
  
         // выводим все значения
         System.out.println("Решение 1: ");
@@ -180,7 +177,6 @@ public class Book {
                 return phoneBook[i].phone; // возвразаем значение
             }
         }
-        // возращаем "не найдено"
         return "not found";
     }
 
@@ -195,13 +191,14 @@ class User { // класс User для записей в телефонной к
     String name;
     String phone;
 
-    // конструктор для создания объектов (имени и телефона)
+    // конструктор для создания объектов
     public User(String name, String phone) {
         this.name = name;
         this.phone = phone;
     }
 }
 ```
+
 
 
 
