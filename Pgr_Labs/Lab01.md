@@ -22,7 +22,7 @@ public class Scalar {
 
     // Метод inc изменяет поле переданного n объекта
     public static void inc(Num num) {
-        num.n++; // добавляем к занчению +1
+        num.n++; 
     }
 
     public static void main(String[] args) {
@@ -30,9 +30,9 @@ public class Scalar {
         // новый объекта Num с полем n = 5
         Num Obj = new Num(5);
 
-        inc(Obj); // вызываем метод для изменения поля n объекта
+        inc(Obj); 
 
-        System.out.println("obj.n: " + Obj.n); // выводим на консоль
+        System.out.println("obj.n: " + Obj.n);
     }
 }
 ```
@@ -49,20 +49,18 @@ public class Scalar {
 динамически в цикле.
 
 ```java
-import java.util.HashMap; //библиотека джавы
+import java.util.HashMap; 
 import java.util.Map;
 
-public class Main { // название класса
+public class Main { 
     public static void main(String[] args) {
-        // создание массива и присвоение ему значений
         Object[] arr = { true, "hello", 5, 12, -200, false, false, "word" };
-        // использование функции HashMap
         Map<String, Integer> type = new HashMap<>();
 
         // цикл "for-each"
         // перебирает значения массива arr и каждый елемент присваивает elem
         for (Object elem : arr) {
-            String name; // в переменную вписывается навание елемента
+            String name;
 
             // цикл "if-else"
             if (elem == null) { //
@@ -77,12 +75,13 @@ public class Main { // название класса
         }
 
         // используется лямба
-        // метод "for-each", который подбирает нужные ключи и значения, после чего выводит
+        // метод "for-each"
         type.forEach((key, value) -> System.out.println(key + ": " + value));
 
     }
 }
 ```
+
 
 
 
