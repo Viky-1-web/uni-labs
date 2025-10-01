@@ -16,7 +16,7 @@ public class Lab1 {
 
         // передвигаемся по масиву и выводим все значения по очереди
         for (int i = 0; i < names.length; i++) {
-            System.out.println("Имя: " + names[i]);
+            System.out.println("Hi, " + names[i]);
         }
     }
 
@@ -198,6 +198,7 @@ class User { // класс User для записей в телефонной к
     }
 }
 ```
+
 
 
 
