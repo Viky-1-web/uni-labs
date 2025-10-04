@@ -47,7 +47,7 @@ public class Main {
             }
         }
 
-        System.out.println("2. " + Arrays.toString(newArr2)); //
+        System.out.println("2. " + Arrays.toString(newArr2)); // [1, 3, 5, 7]
 
         // 3 (возвращение массива без дубликатов)
         int[] Arr = { 1, 2, 3, 4, 5, 1, 2 };
@@ -96,6 +96,11 @@ public class Main {
     }
 }
 ```
+
+
+
+
+
 прошлая версия:
 ```
 import java.util.ArrayList;
