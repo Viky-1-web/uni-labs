@@ -1,4 +1,4 @@
-# 👾 Lab04: Functions, lambda-functions, function contexts, closures
+# 👾 Lab03: Functions, lambda-functions, function contexts, closures
 
 ✔️ Реализуйте функцию `random(min, max)`, возвращающую псевдо-случайное
 значение от `min` до `max`. Используйте `Math.random()` и `Math.floor()`.
