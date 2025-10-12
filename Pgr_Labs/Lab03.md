@@ -11,7 +11,7 @@ public class Aufgabe12 {
     public static void main(String[] args) {
 
         // 1.
-        int min = -100;
+        int min = 0;
         int max = 100;
 
         Random random = new Random();
